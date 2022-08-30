@@ -13,6 +13,16 @@ import javax.swing.JOptionPane;
  */
 public class HelloWord {
     public static void main(String[] args) {
-        JOptionPane.showMessageDialog(null , "Hello Word");
+        if (args.length == 0){
+            System.out.println("No mandaste nada, meteme argumentos");
+        }
+        else if (args.length < 3){
+            System.out.println("No colocaste mandaste argumentos");
+        }else{
+            JOptionPane.showMessageDialog(null, "hello Word " + args[0] + " " + args[1]+ " " + args[2], "Hola mundo", JOptionPane.INFORMATION_MESSAGE);
+        }
     }
 }
+        
+    
+
