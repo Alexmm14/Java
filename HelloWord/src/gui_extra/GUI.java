@@ -38,7 +38,7 @@ public class GUI {
         }else{
             
             GUI persona0 = new GUI(args[0], args[1], args[2]);
-            JOptionPane.showMessageDialog(null, "Nombre: " + persona0.nombre + "\n" + "Primer apellido: " +  persona0.primerApe  + "\n" + "Segundo apellido: " + persona0.segundoApe, "Datos personas", JOptionPane.INFORMATION_MESSAGE );
+            JOptionPane.showMessageDialog(null, "Hola mundo " + persona0.nombre + " " +  persona0.primerApe + " " + persona0.segundoApe, "Datos personas", JOptionPane.INFORMATION_MESSAGE );
         }
         
     }

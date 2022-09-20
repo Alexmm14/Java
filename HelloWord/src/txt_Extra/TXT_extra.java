@@ -35,7 +35,7 @@ public class TXT_extra {
         }else{
             
             TXT_extra persona0 = new TXT_extra(args[0], args[1], args[2]);
-            System.out.println("Nombre: " + persona0.nombre + "\n" + "Primer apellido: " +  persona0.primerApe  + "\n" + "Segundo apellido: " + persona0.segundoApe);
+            System.out.println("Hola Mundo " + persona0.nombre + " "  +  persona0.primerApe  + " " + persona0.segundoApe);
         }
         
     }

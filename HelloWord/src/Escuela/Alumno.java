@@ -11,11 +11,53 @@ import javax.swing.JOptionPane;
  * @author al3xmm14
  */
 public class Alumno {
-    public int x;
-    public String numeCuenta;
-    public String nombre;
-    public String fecha;
-    public int edad;
+    private int x;
+    private String numeCuenta;
+    private String nombre;
+    private String fecha;
+    private int edad;
+
+    public int getX() {
+        return x;
+    }
+
+    public void setX(int x) {
+        this.x = x;
+    }
+
+    public String getNumeCuenta() {
+        return numeCuenta;
+    }
+
+    public void setNumeCuenta(String numeCuenta) {
+        this.numeCuenta = numeCuenta;
+    }
+
+    public String getNombre() {
+        return nombre;
+    }
+
+    public void setNombre(String nombre) {
+        this.nombre = nombre;
+    }
+
+    public String getFecha() {
+        return fecha;
+    }
+
+    public void setFecha(String fecha) {
+        this.fecha = fecha;
+    }
+
+    public int getEdad() {
+        return edad;
+    }
+
+    public void setEdad(int edad) {
+        this.edad = edad;
+    }
+    
+    
 
     public Alumno(String numeCuenta, String nombre, String fecha, int edad) {
         this.numeCuenta = numeCuenta;
