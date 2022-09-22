@@ -21,5 +21,8 @@ public class AlumnoFactory {
         
        // JOptionPane.showMessageDialog(null, " Numero de cuenta: " + a2.numeCuenta + "\n" + "Nombre: " + a2.nombre + "\n" + "Fecha nacimiento: " + a2.fecha + "\n" + "edad: " + a2.edad, "Valores alumno 2", JOptionPane.INFORMATION_MESSAGE);
         
-    }
+     
+       System.out.println( a0.toString());
+       //System.out.println( a2.toString());
+               }
 }
