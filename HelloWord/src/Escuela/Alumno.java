@@ -85,8 +85,11 @@ public class Alumno {
     @Override
         public String toString(){
         return getClass().getName() + "@" + Integer.toHexString(hashCode()) + "Numero Cuenta: " + numeCuenta + "\n " + "Nombre: " + nombre + "\n " + "Fecha: " + fecha + "\n "+ "Edad: " + edad;
-        /*Instanciasr*/
-    }
+        /*Por lo que entendi, estamos modificando el metodo de la clase Alumno, entonces asi como podemos modificar el metodo
+        Podemos usar sus atributos sin haber instaciado un objeto.
+        */
+}
+
     
 }
 
