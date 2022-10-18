@@ -1,0 +1,28 @@
+
+float decimal = 3.14f;
+
+
+Primitivos : int, float, double, char, long, byte, bolean, short.
+
+No primitivos : Integer, String
+
+No primitivos tienen metodos
+
+
+
+Constante 
+
+final int numero = 13;
+
+
+
+
+ENTRADA DE DATOS
+
+
+Primero de debe llamar al metodo Scanner, al mism tiempo que se importa una libreria, seguido se intancia 
+Scanner entrada  = new Scanner(System.in);
+
+Para usarla se coloca el tipo de dato y la entrada
+
+NombreVariable = entrada.next[TipoDato(No poner nada si se escanea una cadela o una cadena con texto se le agrega Line)][.char(0)]
